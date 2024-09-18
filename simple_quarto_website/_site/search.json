@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nThe Beginning\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. \n\n\n\nThe Middle\n\n\n\nThis is some side by side text.\n\nThis is some side by side text.\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\n\n\n\n\nBibiliography reference\nThis text is from the following source. (Junge and Dvorak 2004)\n\nDemonstration of pipe table syntax\n\n\nDefault\nLeft\nRight\nCenter\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1\n\n\n\nThis is an inline math equation \\(2 + 2 = 4\\)\nThis is a non-inline math formula [^1] \\[\nprice = \\hat{\\beta}_0 + \\hat{\\beta}_1 \\times area + \\epsilon\n\\]\n\nThe Ending\n\nLearn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning. - Albert Einstein\n\n [^1]: Some text\n\n\n\n\n\n\n\nReferences\n\nJunge, Astrid, and Jiri Dvorak. 2004. “Soccer Injuries: A Review on Incidence and Prevention.” Sports Medicine 34: 929–38."
+  },
+  {
+    "objectID": "slides/slides.html#slide-1-introduction",
+    "href": "slides/slides.html#slide-1-introduction",
+    "title": "My Quarto Presentation",
+    "section": "Slide 1: Introduction",
+    "text": "Slide 1: Introduction\nThis is the first slide of my presentation."
+  },
+  {
+    "objectID": "slides/slides.html#slide-2-uva-mens-basketball",
+    "href": "slides/slides.html#slide-2-uva-mens-basketball",
+    "title": "My Quarto Presentation",
+    "section": "Slide 2: UVA Men’s Basketball",
+    "text": "Slide 2: UVA Men’s Basketball\nUVA Men’s Basketball won their first NCAA Championship in 2019."
+  },
+  {
+    "objectID": "slides/slides.html#slide-3-uva-womens-swimming",
+    "href": "slides/slides.html#slide-3-uva-womens-swimming",
+    "title": "My Quarto Presentation",
+    "section": "Slide 3: UVA Women’s Swimming",
+    "text": "Slide 3: UVA Women’s Swimming\nUVA Women’s Swimming has four consecutive NCAA titles."
+  },
+  {
+    "objectID": "slides/slides.html#slide-4-python-code-example",
+    "href": "slides/slides.html#slide-4-python-code-example",
+    "title": "My Quarto Presentation",
+    "section": "Slide 4: Python Code Example",
+    "text": "Slide 4: Python Code Example\nBelow is a Python code example to plot a sine wave.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n# Generate data for the parabola\nx = np.linspace(-10, 10, 200)  # 200 evenly spaced values from -10 to 10\ny = x**2  # Parabola equation: y = x^2\n\n# Create the plot\nplt.plot(x, y)\n\n# Add labels and title\nplt.xlabel('X values')\nplt.ylabel('Y values (X^2)')\nplt.title('Parabola: y = x^2')\n\n# Show the plot\nplt.grid(True)  # Add grid for better visualization\nplt.show()\n\n\n\n\n\n\n\n\n\nData science has rapidly grown over the past decade (Inklaar 1994).\n\n\n\n\n\n\n\n\nInklaar, Han. 1994. “Soccer Injuries: I: Incidence and Severity.” Sports Medicine 18: 55–73."
+  }
+]

@@ -1,0 +1,61 @@
+---
+title: "simple_quarto_website"
+toc-title: "Table of Contents"
+format:
+  html:
+    toc-location: left
+    code-fold: true
+bibliography: reference.bib
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+# The Beginning
+* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+![The Lawn at UVA](./images/thelawn.jpg)
+
+# The Middle
+{{< video https://www.youtube.com/watch?v=1y1jGZnzB7U >}}
+::: {.columns}
+::: {.column width="50%"}
+This is some side by side text.
+:::
+
+::: {.column width="50%"}
+This is some side by side text.
+:::
+
+```{mermaid}
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+```
+### Bibiliography reference
+This text is from the following source. [@junge2004soccer]
+
+| Default | Left | Right | Center |
+|---------|:-----|------:|:------:|
+| 12      | 12   |    12 |   12   |
+| 123     | 123  |   123 |  123   |
+| 1       | 1    |     1 |   1    |
+
+: Demonstration of pipe table syntax
+
+This is an inline math equation $2 + 2 = 4$ 
+
+This is a non-inline math formula [^1]
+$$
+price = \hat{\beta}_0 + \hat{\beta}_1 \times area + \epsilon
+$$
+
+# The Ending
+>Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning. - Albert Einstein
+
+![Einstein](./images/einstein.jpg)
+[^1]: Some text
